@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_rect_bg"
+    android:orientation="vertical"
+    android:padding="27dp"
+
+    >
+
+
+    <!-- День недели -->
+    <TextView
+        android:id="@+id/tvDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto_regular"
+
+        android:gravity="center"
+        android:text="Wed"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <!-- Иконка погоды -->
+    <ImageView
+        android:id="@+id/ivWeatherIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp" />
+
+    <!-- Температура -->
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="22°"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <!-- Скорость ветра -->
+    <TextView
+        android:id="@+id/tvWindSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center"
+        android:text="1-5 km/h"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>
